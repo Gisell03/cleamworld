@@ -1,0 +1,82 @@
+.cabeceraoferta {
+    font-size: 30px;
+    color: rgb(5, 5, 5);
+    text-transform: uppercase;
+    font-weight: 300;
+    text-align: center;
+    margin-bottom: 15px;
+  }
+  .tableoferta {
+    width: 650px;
+    table-layout: fixed;
+  }
+  .tbl-header {
+    background-color: rgba(255, 255, 255, 0.3);
+  }
+  .tbl-content {
+    height: 400px;
+    width: 655px;
+    overflow-x: auto;
+    margin-top: 0px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+  }
+  .thoferta {
+    padding: 30px 4px 29px 2px;
+    text-align: left;
+    font-weight: 500;
+    font-size: 16px;
+    color: rgb(15, 14, 14);
+    text-transform: uppercase;
+  }
+  .tdoferta {
+    padding: 4px;
+    text-align: left;
+    vertical-align: middle;
+    font-weight: 300;
+    font-size: 15px;
+    color: rgb(5, 5, 5);
+    border-bottom: solid 1px rgba(255, 255, 255, 0.1);
+  }
+  
+  /* demo styles */
+  
+  @import url(https://fonts.googleapis.com/css?family=Roboto:400,500,300,700);
+.tableoferta {
+    background: -webkit-linear-gradient(left, #45e9a570, #e3eaeb85);
+    box-shadow: rgba(0, 0, 0, 0.11) 0px 14px 10px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    font-family: "Roboto", sans-serif;
+  }
+  section {
+    margin: 20px;
+  }
+  
+  /* follow me template */
+  .made-with-love {
+    margin-top: 40px;
+    padding: 10px;
+    clear: left;
+    text-align: center;
+    font-size: 10px;
+    font-family: arial;
+    color: rgb(5, 4, 4);
+  }
+  .made-with-love i {
+    font-style: normal;
+    color: #f50057;
+    font-size: 14px;
+    position: relative;
+    top: 2px;
+  }
+  .made-with-love a {
+    color: rgb(14, 12, 12);
+    text-decoration: none;
+  }
+  .made-with-love a:hover {
+    text-decoration: underline;
+  }
+  
+  /* for custom scrollbar for webkit browser*/
+  
+  ::-webkit-scrollbar {
+    width: 6px;
+  }
